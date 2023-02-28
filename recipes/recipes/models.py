@@ -65,6 +65,6 @@ if __name__ == "__main__":
 
     cursor = recipes_collection.find({"category": Category.breakfast.value})
 
-    #recipes_collection.delete_many({"name": "jajecznica"})
+    # recipes_collection.delete_many({"name": "jajecznica"})
 
     print(recipes_collection.find_one({"name": "jajecznica"}))
